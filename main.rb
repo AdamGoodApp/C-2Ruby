@@ -7,7 +7,7 @@ class MyTest
     builder.add_compile_flags '-x c++', '-lstdc++'
 
     builder.c "
-      int hello() {
+      double hello() {
         return MathTypes::Constants::pi;
       }
     "
